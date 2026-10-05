@@ -1,6 +1,9 @@
 Objective Feature Extraction for Channel Network Identification
 
-## Overview
+Author: Ori Clark
+Course: GES 419
+
+Overview
 
 This project presents an automated statistical methodology for extracting channel networks from Digital Terrain Models (DTMs) without relying on manually selected thresholds.
 
@@ -30,7 +33,7 @@ The analysis evaluated terrain attributes across different window sizes and used
 
 Increasing skewness indicates that the selected kernel is enhancing important terrain features such as valleys. The optimal scale was identified where increasing the kernel size stopped producing meaningful increases in skewness, reducing the risk of over-smoothing terrain features.
 
-3. Normalization & Weighting
+3. Normalization & Weighting Matrix
 
 Q-Q plot analysis was used to identify extreme values within the curvature and openness distributions.
 
@@ -75,7 +78,7 @@ Using objective scale selection, morphology-based weighting, flow convergence, a
 
 Tools & Skills
 LiDAR / Digital Terrain Models
-ArcGIS / GIS
+ArcGIS
 Raster Analysis
 Terrain Morphometry
 Spatial Analysis
@@ -87,7 +90,6 @@ Entropy Analysis
 Least-Cost Path Analysis
 Automated Feature Extraction
 Hydrologic Modeling
-
-## Project Files
+Project Files
 [View the full project report](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Engineering-Intensity-Flow-Paths/ghub%20watershed%202.pdf)
 
