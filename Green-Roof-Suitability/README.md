@@ -127,4 +127,4 @@ The suitability index provided a way to combine these factors and compare potent
 
 ## Project Files
 
-[View the full project report](ghub%20green%20roof%20analysis.pdf)
+[View the full project report](./ghub%20green%20roof%20analysis.pdf)
