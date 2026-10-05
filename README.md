@@ -19,8 +19,6 @@ GIS-based suitability analysis identifying potential locations for green roof in
 
 **Tools:** ArcGIS Pro · LiDAR · DEM/DSM · Spatial Analysis
 
-[**View Project →**](./Green-Roof-Suitability)
-
 ---
 
 ### 📊 [Income Variation Across DMV Census Tracts](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Income-Variation-DMV)
@@ -28,8 +26,6 @@ GIS-based suitability analysis identifying potential locations for green roof in
 R-based spatial analysis examining income variation across census tracts in the Washington, D.C., Maryland, and Virginia region. The analysis evaluates relationships between income, education, population density, transportation access, and other demographic factors.
 
 **Tools:** R · Spatial Analysis · Statistical Analysis · Census Data
-
-[**View Project →**](./Income-Variation-DMV)
 
 ---
 
@@ -39,8 +35,6 @@ Spatial analysis examining relationships between electric vehicle charging infra
 
 **Tools:** ArcGIS Pro · Spatial Analysis · Demographic Data
 
-[**View Project →**](./EV-Charging-Station-Usage)
-
 ---
 
 ### 🌊 [How Does Engineering Intensity Shape Flow Path Structure?](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Engineering-Intensity-Flow-Paths)
@@ -49,8 +43,6 @@ Hydrologic analysis examining how engineering and land-use modification influenc
 
 **Tools:** ArcGIS Pro · Hydrologic Analysis · Watershed Analysis · Spatial Analysis
 
-[**View Project →**](./Engineering-Intensity-Flow-Paths)
-
 ---
 
 ### 🏞️ [Objective Feature Extraction and Scale Selection for Channel Network Identification](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Objective-Channel-Network-Extraction)
@@ -58,8 +50,6 @@ Hydrologic analysis examining how engineering and land-use modification influenc
 Quantitative GIS analysis using terrain feature extraction, statistical scale selection, flow modeling, and spatial analysis to improve identification of channel network structure.
 
 **Tools:** LiDAR · Terrain Analysis · Raster Analysis · Spatial Analysis · Statistical Analysis
-
-[**View Project →**](./Objective-Channel-Network-Extraction)
 
 ---
 
