@@ -34,13 +34,13 @@ Spatial analysis examining relationships between electric vehicle charging stati
 
 **Tools:** GIS, Spatial Analysis, Demographic Data
 
-### How Does Engineering Intensity Shape Flow Path Structure?
+### [How Does Engineering Intensity Shape Flow Path Structure?](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Engineering-Intensity-Flow-Paths)
 
 Hydrologic analysis examining how engineering and land-use modification influence flow path structure across different landscape types.
 
 **Tools:** GIS, Hydrologic Analysis, Watershed Analysis, Spatial Analysis
 
-### Objective Feature Extraction and Scale Selection for Channel Network Identification
+### [Objective Feature Extraction and Scale Selection for Channel Network Identification]()
 
 Quantitative GIS analysis using feature extraction, distance analysis, and statistical description to evaluate spatial scales and improve identification of channel network structure.
 
