@@ -71,5 +71,5 @@ Impervious surface coverage was heavily concentrated in Baltimore's downtown cor
 
 ## Project Files
 
-[View Full Project](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/EV-Charging-Station-Usage/ghub%20analyze%20spat.pdf)
+[View the full project report](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/EV-Charging-Station-Usage/ghub%20analyze%20spat.pdf)
 
