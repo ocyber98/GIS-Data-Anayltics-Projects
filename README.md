@@ -1,50 +1,67 @@
 # GIS & Environmental Data Analytics Portfolio
 
-GIS, spatial analysis, and environmental data projects using ArcGIS Pro, R, and quantitative methods.
+GIS, spatial analysis, and environmental data projects using **ArcGIS Pro, R, and quantitative methods**.
 
 ## Skills Demonstrated
 
-* ArcGIS Pro
-* R / Statistical Analysis
-* Spatial Analysis
-* Hydrologic & Watershed Analysis
-* LiDAR & Elevation Data
-* Environmental Suitability Analysis
-* Demographic & Socioeconomic Analysis
-* Data Visualization
-* Quantitative Feature Extraction
+* **GIS:** ArcGIS Pro, Spatial Analysis, Environmental Suitability Analysis
+* **Environmental:** Hydrologic & Watershed Analysis, LiDAR & Elevation Data
+* **Statistics:** R, Statistical Analysis, Quantitative Feature Extraction
+* **Data:** Demographic & Socioeconomic Analysis, Data Visualization
+
+---
 
 ## Projects
 
-### [Green Roof Suitability Analysis Using GIS](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Green-Roof-Suitability)
+### 🌱 [Green Roof Suitability Analysis Using GIS](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Green-Roof-Suitability)
 
 GIS-based suitability analysis identifying potential locations for green roof installation at UMBC using LiDAR-derived elevation data and spatial analysis.
 
-**Tools:** ArcGIS Pro, LiDAR, DEM/DSM, Spatial Analysis
+**Tools:** ArcGIS Pro · LiDAR · DEM/DSM · Spatial Analysis
 
-### [Income Variation Across DMV Census Tracts](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Income-Variation-DMV)
+[**View Project →**](./Green-Roof-Suitability)
 
-R-based spatial analysis examining income variation across census tracts in the Washington, D.C., Maryland, and Virginia region. Explores relationships between income and demographic factors including education, population density, transportation access, and depression rates.
+---
 
-**Tools:** R, Spatial Analysis, Statistical Analysis, Census Data
+### 📊 [Income Variation Across DMV Census Tracts](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Income-Variation-DMV)
 
-### [Analyzing Electric Vehicle Charging Station Usage](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/EV-Charging-Station-Usage)
+R-based spatial analysis examining income variation across census tracts in the Washington, D.C., Maryland, and Virginia region. The analysis evaluates relationships between income, education, population density, transportation access, and other demographic factors.
 
-Spatial analysis examining relationships between electric vehicle charging station usage and demographic characteristics to identify spatial patterns and potential infrastructure gaps.
+**Tools:** R · Spatial Analysis · Statistical Analysis · Census Data
 
-**Tools:** GIS, Spatial Analysis, Demographic Data
+[**View Project →**](./Income-Variation-DMV)
 
-### [How Does Engineering Intensity Shape Flow Path Structure?](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Engineering-Intensity-Flow-Paths)
+---
 
-Hydrologic analysis examining how engineering and land-use modification influence flow path structure across different landscape types.
+### 🚗 [Analyzing Electric Vehicle Charging Station Usage](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/EV-Charging-Station-Usage)
 
-**Tools:** GIS, Hydrologic Analysis, Watershed Analysis, Spatial Analysis
+Spatial analysis examining relationships between electric vehicle charging infrastructure and demographic characteristics to identify spatial patterns and potential infrastructure gaps.
 
-### [Objective Feature Extraction and Scale Selection for Channel Network Identification](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Objective-Channel-Network-Extraction)
+**Tools:** ArcGIS Pro · Spatial Analysis · Demographic Data
 
-Quantitative GIS analysis using feature extraction, distance analysis, and statistical description to evaluate spatial scales and improve identification of channel network structure.
+[**View Project →**](./EV-Charging-Station-Usage)
 
-**Tools:** GIS, Feature Extraction, Spatial Analysis, Statistical Analysis
+---
+
+### 🌊 [How Does Engineering Intensity Shape Flow Path Structure?](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Engineering-Intensity-Flow-Paths)
+
+Hydrologic analysis examining how engineering and land-use modification influence flow-path structure across forested, agricultural, and urban watersheds.
+
+**Tools:** ArcGIS Pro · Hydrologic Analysis · Watershed Analysis · Spatial Analysis
+
+[**View Project →**](./Engineering-Intensity-Flow-Paths)
+
+---
+
+### 🏞️ [Objective Feature Extraction and Scale Selection for Channel Network Identification](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Objective-Channel-Network-Extraction)
+
+Quantitative GIS analysis using terrain feature extraction, statistical scale selection, flow modeling, and spatial analysis to improve identification of channel network structure.
+
+**Tools:** LiDAR · Terrain Analysis · Raster Analysis · Spatial Analysis · Statistical Analysis
+
+[**View Project →**](./Objective-Channel-Network-Extraction)
+
+---
 
 ## About
 
