@@ -1,6 +1,10 @@
+<div align="center">
+
 # GIS & Environmental Data Analytics Portfolio
 
-GIS, spatial analysis, and environmental data projects using **ArcGIS Pro, R, and quantitative methods**.
+**Environmental Science • GIS • Spatial Analysis • Hydrologic Modeling**
+
+</div>
 
 ## Skills Demonstrated
 
