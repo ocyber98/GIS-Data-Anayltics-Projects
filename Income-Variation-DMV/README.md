@@ -130,4 +130,4 @@ The Q-Q plot also showed departures from normality in the upper tail, suggesting
 
 ## Project Files
 
-[[View Full project Report]./ghub%20income%20spatial%20analytics.pdf](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Income-Variation-DMV/ghub%20income%20spatial%20analytics.pdf)
+[[View Full project Report](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Income-Variation-DMV/ghub%20income%20spatial%20analytics.pdf)
