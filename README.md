@@ -28,7 +28,7 @@ R-based spatial analysis examining income variation across census tracts in the 
 
 **Tools:** R, Spatial Analysis, Statistical Analysis, Census Data
 
-### Analyzing Electric Vehicle Charging Station Usage
+### [Analyzing Electric Vehicle Charging Station Usage](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/EV-Charging-Station-Usage)
 
 Spatial analysis examining relationships between electric vehicle charging station usage and demographic characteristics to identify spatial patterns and potential infrastructure gaps.
 
