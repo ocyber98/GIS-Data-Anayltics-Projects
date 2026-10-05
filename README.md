@@ -16,7 +16,7 @@ GIS, spatial analysis, and environmental data projects using ArcGIS Pro, R, and 
 
 ## Projects
 
-### Green Roof Suitability Analysis Using GIS
+### [Green Roof Suitability Analysis Using GIS](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Green-Roof-Suitability)
 
 GIS-based suitability analysis identifying potential locations for green roof installation at UMBC using LiDAR-derived elevation data and spatial analysis.
 
