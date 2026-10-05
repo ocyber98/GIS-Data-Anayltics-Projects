@@ -130,5 +130,4 @@ The Q-Q plot also showed departures from normality in the upper tail, suggesting
 
 ## Project Files
 
-Full project report and supporting figures are included in this project folder.
-
+[View Full project Report}./ghub%20income%20spatial%20analytics.pdf
