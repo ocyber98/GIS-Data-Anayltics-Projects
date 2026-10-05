@@ -22,7 +22,7 @@ GIS-based suitability analysis identifying potential locations for green roof in
 
 **Tools:** ArcGIS Pro, LiDAR, DEM/DSM, Spatial Analysis
 
-### Income Variation Across DMV Census Tracts
+### [Income Variation Across DMV Census Tracts](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Income-Variation-DMV)
 
 R-based spatial analysis examining income variation across census tracts in the Washington, D.C., Maryland, and Virginia region. Explores relationships between income and demographic factors including education, population density, transportation access, and depression rates.
 
