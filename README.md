@@ -40,7 +40,7 @@ Hydrologic analysis examining how engineering and land-use modification influenc
 
 **Tools:** GIS, Hydrologic Analysis, Watershed Analysis, Spatial Analysis
 
-### [Objective Feature Extraction and Scale Selection for Channel Network Identification]()
+### [Objective Feature Extraction and Scale Selection for Channel Network Identification](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Objective-Channel-Network-Extraction)
 
 Quantitative GIS analysis using feature extraction, distance analysis, and statistical description to evaluate spatial scales and improve identification of channel network structure.
 
