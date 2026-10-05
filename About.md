@@ -15,7 +15,7 @@ GIS, spatial analysis, and environmental data projects using ArcGIS Pro, R, and 
 * Quantitative Feature Extraction
 
 ## Projects
-ghub income spatial analytics.pdf
+
 ### Green Roof Suitability Analysis Using GIS
 
 GIS-based suitability analysis identifying potential locations for green roof installation at UMBC using LiDAR-derived elevation data and spatial analysis.
