@@ -1,95 +1,86 @@
-Objective Feature Extraction for Channel Network Identification
+# Objective Feature Extraction and Scale Selection for Channel Network Identification
 
-Author: Ori Clark
-Course: GES 419
+## Overview
 
-Overview
+This project develops an automated method for extracting channel networks from high-resolution LiDAR Digital Terrain Models (DTMs) without relying on manually selected contributing-area or slope-area thresholds.
 
-This project presents an automated statistical methodology for extracting channel networks from Digital Terrain Models (DTMs) without relying on manually selected thresholds.
+Traditional channel extraction methods can be sensitive to terrain type, data quality, and subjective threshold selection. This study evaluates an objective framework for identifying channel features across complex landscapes.
 
-Traditional channel extraction methods often use fixed thresholds, such as minimum contributing area or slope-area ratios. These thresholds may overpredict channel heads and perform inconsistently across different terrain types. This workflow reduces subjectivity by analyzing spatial feature distributions to dynamically select analysis scale and identify drainage pathways.
+## Research Objectives
 
-Key Features & Objectives
-Objective Scale Selection: Determines terrain analysis window sizes without subjective bias.
-Automated Network Identification: Uses LiDAR-derived topographic attributes to identify channel features and drainage networks.
-Broad Applicability: Avoids generic fixed thresholds to improve performance across diverse and complex landscapes.
-Study Areas
+1. Automatically determine the optimal spatial scale for terrain analysis.
+2. Extract channel networks using LiDAR-derived topographic attributes without subjective manual thresholds.
+3. Develop a methodology that can be applied across different and complex terrain environments.
 
-The model was evaluated using high-resolution 1 m LiDAR DTMs and validated against field-mapped channel heads collected using Differential GPS (DGPS).
+## Study Areas & Data
 
-Basin	Geomorphological Characteristics
-Cordon Basin	Simple catchment boundary with highly complex morphology and abrupt slope changes.
-Miozza Basin	More organized catchment structure with complex local terrain features.
-Methodology
-1. Morphology Detection
+The framework was evaluated in two contrasting environments:
 
-Two primary terrain metrics were derived from the DTM:
+* **Cordon Basin:** A relatively simple catchment structure with complex surface morphology and abrupt changes in slope.
+* **Miozza Basin:** A more organized catchment structure with complex terrain features.
 
-Minimum Curvature: Measures surface concavity and helps identify valleys and potential channel pathways.
-Openness: Measures how open or enclosed terrain is relative to its surroundings and captures larger-scale landform patterns.
-2. Scale & Kernel Size Selection
+The analysis used high-resolution **1 m LiDAR DTMs** along with DGPS field observations of channel heads and channel networks.
 
-The analysis evaluated terrain attributes across different window sizes and used skewness to determine the optimal analysis scale.
+## Methods
 
-Increasing skewness indicates that the selected kernel is enhancing important terrain features such as valleys. The optimal scale was identified where increasing the kernel size stopped producing meaningful increases in skewness, reducing the risk of over-smoothing terrain features.
+### Topographic Morphology
 
-3. Normalization & Weighting Matrix
+Several terrain attributes were used to identify landscape features associated with channels:
 
-Q-Q plot analysis was used to identify extreme values within the curvature and openness distributions.
+* **Minimum Curvature:** Identifies concave terrain associated with valleys and channel pathways.
+* **Positive Openness:** Describes the degree to which terrain is exposed or open.
+* **Negative Openness:** Identifies enclosed or depressed terrain features.
 
-The normalized terrain attributes were then combined into a spatial weight matrix representing the relative importance of terrain morphology for channel identification.
+### Automatic Scale Selection
 
-4. Morphologically Weighted Flow Convergence
+Kernel size affects how effectively terrain attributes identify channel features. Instead of selecting a window size manually, the study evaluated the skewness of terrain attribute distributions across multiple kernel sizes.
 
-A modified Multiple Flow Direction (MFD) algorithm based on Quinn et al. (1991) was used to model flow convergence.
+The optimal scale was identified where increasing kernel size stopped producing meaningful increases in skewness, reducing the risk of over-smoothing important terrain features.
 
-Instead of relying only on slope gradients, flow routing was weighted using the morphology-derived matrix. This allowed the model to better represent convergence toward potential channel pathways.
+### Normalization & Weighting
 
-5. Noise Filtering & Network Connection
+Terrain attributes were normalized using Quantile-Quantile (QQ) plot thresholds to identify statistically significant areas of extreme curvature and openness.
 
-Different filtering methods were applied to account for differences between the study basins:
+The normalized attributes were then combined into a **weight matrix** representing the relative importance of terrain morphology for flow convergence.
 
-Miozza Basin: A majority filter was used to remove isolated noise pixels.
-Cordon Basin: Local flow-direction entropy was used to distinguish structured channel flow from chaotic surface noise. Areas with high entropy were filtered out.
-Network Connectivity: Isolated channel segments were connected to the main outlet using a Least-Cost Path (LCP) algorithm based on Euclidean distance.
-Methodology Pipeline
-DTM Data
-   ↓
-Topographic Metrics
-   ↓
-Skewness-Based Kernel Selection
-   ↓
-Q-Q Plot Normalization
-   ↓
-Morphological Weight Matrix
-   ↓
-Weighted MFD Flow
-   ↓
-Noise Filtering
-   ↓
-Least-Cost Path Connection
-   ↓
-Final Channel Network
-Key Findings
+### Flow Convergence
 
-The workflow demonstrates how terrain morphology and statistical analysis can be combined to automatically identify channel networks without relying on universal fixed thresholds.
+A modified **Multiple Flow Direction (MFD)** approach based on Quinn et al. (1991) was used to model flow paths.
 
-Using objective scale selection, morphology-based weighting, flow convergence, and spatial filtering provides a more adaptable approach for extracting drainage features from high-resolution terrain data.
+Rather than distributing flow based only on slope, the flow algorithm incorporated the morphology-derived weight matrix to better represent convergence toward channel features.
 
-Tools & Skills
-LiDAR / Digital Terrain Models
-ArcGIS
-Raster Analysis
-Terrain Morphometry
-Spatial Analysis
-Multiple Flow Direction
-Kernel Analysis
-Skewness Analysis
-Q-Q Plot Analysis
-Entropy Analysis
-Least-Cost Path Analysis
-Automated Feature Extraction
-Hydrologic Modeling
-Project Files
-[View the full project report](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Engineering-Intensity-Flow-Paths/ghub%20watershed%202.pdf)
+### Noise Filtering
+
+Different filtering approaches were applied to the two basins:
+
+* **Miozza Basin:** A majority filter was used to remove isolated pixels and small areas of noise.
+* **Cordon Basin:** Local entropy was used to measure randomness in flow directions. Areas with high entropy were treated as noise, while areas with lower entropy were retained as more structured channel flow.
+
+### Network Connection
+
+A least-cost path approach based on Euclidean distance was used to connect isolated verified channel segments to the primary pour point and create a continuous channel network.
+
+## Key Findings
+
+The study demonstrates that channel networks can be extracted more objectively by combining terrain morphology, automated scale selection, flow convergence, and spatial filtering.
+
+The results also show why universal channel-head thresholds can be problematic: both study basins contained channel heads across a wide range of contributing areas.
+
+## Tools & Skills
+
+* LiDAR / Digital Terrain Models
+* Terrain Analysis
+* Raster Analysis
+* Spatial Analysis
+* Flow Direction & Flow Accumulation
+* Multiple Flow Direction
+* Kernel Analysis
+* Quantile-Quantile Analysis
+* Entropy Analysis
+* Least-Cost Path Analysis
+* GIS Modeling
+* Automated Feature Extraction
+
+## Project Files
+[View the full project](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Engineering-Intensity-Flow-Paths/ghub%20watershed%202.pdf)
 
