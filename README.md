@@ -13,8 +13,6 @@
 * **Statistics:** R, Statistical Analysis, Quantitative Feature Extraction
 * **Data:** Demographic & Socioeconomic Analysis, Data Visualization
 
----
-
 ## Projects
 
 ### 🌱 [Green Roof Suitability Analysis Using GIS](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/tree/main/Green-Roof-Suitability)
