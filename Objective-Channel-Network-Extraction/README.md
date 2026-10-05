@@ -82,4 +82,4 @@ The results also show why universal channel-head thresholds can be problematic: 
 * Automated Feature Extraction
 
 ## Project Files
-[View the full project]
+[View the full project](https://github.com/ocyber98/GIS-Data-Anayltics-Projects/blob/main/Objective-Channel-Network-Extraction/ghub%20watershed%20anal.pdf)
