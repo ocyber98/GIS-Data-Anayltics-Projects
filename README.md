@@ -1,6 +1,6 @@
 # GIS & Environmental Data Analytics Portfolio
 
-A collection of GIS, spatial analysis, and environmental data projects focused on applying geospatial and quantitative methods to real-world environmental and planning questions.
+GIS, spatial analysis, and environmental data projects using ArcGIS Pro, R, and quantitative methods.
 
 ## Skills Demonstrated
 
