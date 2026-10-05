@@ -1,9 +1,6 @@
 Objective Feature Extraction for Channel Network Identification
 
-Author: Ori Clark
-Course: GES 419
-
-Overview
+## Overview
 
 This project presents an automated statistical methodology for extracting channel networks from Digital Terrain Models (DTMs) without relying on manually selected thresholds.
 
